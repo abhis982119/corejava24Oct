@@ -1,6 +1,6 @@
 package org.batch.classnobject.memorymanagement;
 
-public class Runner {
+public class Runner extends Object{
     /*
       1. Stack  : x
       2. Heap
@@ -18,7 +18,7 @@ public class Runner {
  -------------                         ----------                          ---------------
  main                                      m1
  --------------                        -----------                               67878997
-  args[]                                 localVariable = 0                    A{instanceVariable = 0 }
+  args[]                                 localVariable = 0                    A{ instanceVariable = 0 }
   A a = 67878997;
 
  --------------                         --------------
