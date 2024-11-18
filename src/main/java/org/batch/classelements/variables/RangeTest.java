@@ -1,8 +1,13 @@
 package org.batch.classelements.variables;
 
+import java.util.Random;
+
 public class RangeTest {
 
     public static void main(String[] args) {
+
+        int a = new Random().nextInt();
+        System.out.println("Random integer : " +  a);
 
         System.out.println("  Byte.MAX_VALUE  : " +   Byte.MAX_VALUE );
         System.out.println("  Byte.MIN_VALUE  : " +   Byte.MIN_VALUE );

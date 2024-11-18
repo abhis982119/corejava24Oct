@@ -41,5 +41,33 @@ public class Runner {
 */
 
 
+        Integer c1 = new Integer(10);
+        Integer c2 = new Integer(10);
+
+        if(c1 == c2){
+            System.out.println("both objects int same");
+        }else{
+            System.out.println("both int objects different");
+        }
+
+        Integer c3 = 127;
+        Integer c4 = 127;
+
+        Integer c5 = 300000;
+        Integer c6 = 300000;
+
+        if(c3 == c4){
+            System.out.println("both primitive int same");
+        }else{
+            System.out.println("both primitive int different");
+        }
+
+
+        if(c5 == c6){
+            System.out.println("both primitive int same");
+        }else{
+            System.out.println("both primitive int different");
+        }
+
     }
 }
