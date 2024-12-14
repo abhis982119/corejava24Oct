@@ -9,12 +9,10 @@ public class NormalTerminationWithEH {
             System.out.println("line-2");
             int a = 10/0;
             System.out.println("line-3");
-
         }catch(Exception e){
             System.out.println("catch block");
         }
 
         System.out.println("code ended gracefully");
-
     }
 }

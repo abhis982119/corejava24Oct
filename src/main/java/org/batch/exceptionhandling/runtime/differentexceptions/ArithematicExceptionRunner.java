@@ -10,7 +10,7 @@ public class ArithematicExceptionRunner {
             int a = 10 / 0;
             System.out.println("line-3");
             System.out.println("line-4");
-        }catch (ArithmeticException e){
+        }catch (Error e){
             System.out.println("catch block " + e.getMessage());
         }
 

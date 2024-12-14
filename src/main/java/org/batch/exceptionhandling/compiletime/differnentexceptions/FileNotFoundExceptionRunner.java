@@ -15,8 +15,6 @@ public class FileNotFoundExceptionRunner {
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
             }
-
-
         }catch (FileNotFoundException ex){
             System.out.println("catch block : " + ex.getMessage());
         }
