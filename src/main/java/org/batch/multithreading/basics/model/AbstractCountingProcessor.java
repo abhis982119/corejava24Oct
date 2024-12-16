@@ -1,4 +1,4 @@
-package org.batch.multithreading.basics.waystocreateThread;
+package org.batch.multithreading.basics.model;
 
 public class AbstractCountingProcessor {
 

@@ -1,13 +1,14 @@
-package org.batch.multithreading.basics.waystocreateThread.extendsthread;
+package org.batch.multithreading.basics.model;
 
 import lombok.SneakyThrows;
 
-public class MyCountingThread extends Thread {
+public class PrintNameTask implements  Runnable{
+
 
     @Override @SneakyThrows
     public void run() {
         for(int i = 0; i < 5; i++){
-            System.out.println(i+1);
+            System.out.println("Hello, User");
             Thread.sleep(2000);
         }
     }
